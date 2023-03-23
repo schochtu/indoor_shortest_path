@@ -30,4 +30,20 @@ In this approach the start and end point can be choosen freely.
 
 # Results
 
-![ScreenShot](/resources/cat.png) ![ScreenShot](/resources/maze_d.png)
+![ScreenShot](/resources/floor_plan_a.png) 
+![ScreenShot](/results/grid.png)
+![ScreenShot](/results/prog1.png)
+
+The floor plan was first preprocessed and than converted into a grid and the search algorithm was applied (in this example A*)
+
+It also works with more complex plans and a higher grid resolution:
+
+![ScreenShot](/resources/floor_plan_c.png) 
+![ScreenShot](/results/res3.png)
+
+Due to the resolution, the labeling of the plan could not be removed by the erosion algorithm, otherwise wall information would also have been lost.
+
+The approach also works with mazes:
+
+![ScreenShot](/resources/maze_c.png) 
+![ScreenShot](/results/res6.png)
